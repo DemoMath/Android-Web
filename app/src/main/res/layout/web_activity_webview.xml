@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <include
+        android:id="@+id/web_inlcude_header"
+        layout="@layout/web_layout_header"/>
+    <app.bkjk.bkjkweb.view.ProgressBarWebView
+        android:id="@+id/web_webview"
+        android:layout_below="@+id/web_inlcude_header"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+</RelativeLayout>
